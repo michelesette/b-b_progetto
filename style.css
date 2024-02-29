@@ -1,0 +1,36 @@
+nav{
+    background-color: #6F1D1B;
+    opacity: 95%;
+}
+
+.navbar-toggler{
+    --bs-navbar-toggler-focus-width: 0;   
+}
+
+.designe-underline {
+    position: relative;
+}
+
+.designe-underline::after {
+    position: absolute;
+    content: '';
+    bottom: -12%;
+    left: 1%;
+    width: 35%;
+    height: 10%;
+    background-color: #BB9457;
+}
+
+.designe-underline2 {
+    position: relative;
+}
+
+.designe-underline2::after {
+    position: absolute;
+    content: '';
+    bottom: -14%;
+    left: 1%;
+    width: 51%;
+    height: 10%;
+    background-color: #BB9457;
+}
