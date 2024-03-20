@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>B&B Pietraviva</title>
+    <title>Pietraviva House</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- js -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -17,32 +17,31 @@
 <body id="up">
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" aria-label="Fourth navbar example">
+    <nav class="navbar navbar-expand-md rounded fixed-top" aria-label="Twelfth navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                B&B Pietraviva
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon me-3 "></span>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse text-end" id="navbarsExample04">
-                <ul class="navbar-nav me-3 mb-2 mb-md-0">
+            <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#camere">Camere</a>
+                        <a class="nav-link active" aria-current="page" href="#">PIETRAVIVA HOUSE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#recensioni">Recensioni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#go">Vieni a trovarci</a>
+                        <a class="nav-link" href="#go">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#call">Contattaci</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Facebook</a></li>
                             <li><a class="dropdown-item" href="#">Instagram</a></li>
-                            <li><a class="dropdown-item" href="#">Twitter</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -51,8 +50,7 @@
     </nav>
     
     <!-- carosello -->
-    
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -61,23 +59,23 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./media/ingresso.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block">
-                    <h2>B&B PIETRAVIVA</h2>
-                    <p>Some representative placeholder content for the first slide.</p>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>PIETRAVIVA HOUSE</h1>
+                    <p>L'eleganza del territorio pugliese</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./media/atrio.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2>B&B PIETRAVIVA</h2>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h3>Camere di ogni tipo</h3>
+                    <p>Comode camere con tanti servizi</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./media/cucina.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2>B&B PIETRAVIVA</h2>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h3>Cucina per ogni esigenza</h3>
+                    <p>Cucina fornita di lavastoviglie, frigorifero e caffè</p>
                 </div>
             </div>
         </div>
@@ -90,178 +88,353 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-        
-        <!-- Camere -->
-        <div id="camere">   
-            <div class="container text-center mt-2">
-                <div class="row">
-                    <div>
-                        <h1>Le nostre camere</h1>
+    
+    <!-- Camere -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <h3 class="text-center mt-4">LE NOSTRE CAMERE</h3>
+            <div class="col-12 col-md-3 my-4">
+                <div data-aos="zoom-in" class="card">
+                    <img src="./media/cameraMatrimoniale/cameraMatrimoniale.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                </div>
+                </div> 
             </div>
-
-            <div  class="container-fluid mt-3 text-center"> 
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-4">
-                        <div data-aos="flip-left" class="card d-block mx-auto" style="width: 18rem;">
-                            <img src="./media/cameraMatrimoniale/cameraMatrimoniale.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+            <div class="col-12 col-md-3 my-4">
+                <div data-aos="zoom-in" class="card">
+                    <img src="./media/matrimoniale/Matrimoniale.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="col-12 col-md-3 mb-4">
-                        <div data-aos="flip-left" class="card d-block mx-auto" style="width: 18rem;">
-                            <img src="./media/matrimoniale/Matrimoniale.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+                </div> 
+            </div>
+            <div class="col-12 col-md-3 my-4">
+                <div data-aos="zoom-in" class="card">
+                    <img src="./media/matrimoniale/matrimoniale3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="col-12 col-md-3 mb-4">
-                        <div data-aos="flip-left" class="card d-block mx-auto" style="width: 18rem;">
-                            <img src="./media/matrimonialediv.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+                </div> 
+            </div>
+            <div class="col-12 col-md-3 my-4">
+                <div data-aos="zoom-in" class="card">
+                    <img src="./media/matrimonialediv.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="col-12 col-md-3 mb-4">
-                        <div data-aos="flip-left" class="card d-block mx-auto" style="width: 18rem;">
-                            <img src="./media/cucina.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> 
             </div>
         </div>
-        
-        <!-- Recensioni -->
-        <div id="recensioni">
-            <div class="container text-center mt-2 mb-3">
-                <div class="row">
-                    <div>
-                        <h3>RECENSIONI SU DI NOI</h3>
-                    </div>
+    </div>
+    
+    <!-- Recensioni -->
+    <div id="recensioni">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <h3 class="my-4">RECENSIONI SU DI NOI</h3>
+                <div class="col-12 col-md-6 ">
+                    <img data-aos="fade-right" class="w-75 mb-5" src="./media/logo.jpg" alt="">
                 </div>
-            </div>
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 ">
-                        <img data-aos="fade-right" class="w-75 mb-5" src="./media/logo.jpg" alt="">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="container-flex text-center">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-12 mb-3">
-                                    <div data-aos="flip-up" class="card d-block mx-auto" style="width: 20rem;">
-                                        <div class="card-body shadow ">
-                                            <h5 class="card-title">Recensione 1</h5>
-                                            <h6 class="card-subtitle mb-2 text-body-secondary">persona</h6>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-12 mb-3">
-                                    <div data-aos="flip-up" class="card d-block mx-auto" style="width: 20rem;">
-                                        <div class="card-body shadow ">
-                                            <h5 class="card-title">Recensione 2</h5>
-                                            <h6 class="card-subtitle mb-2 text-body-secondary">Persona</h6>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        </div>
+                <div class="col-12 col-md-6">
+                    <div class="container-flex text-center">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-12 mb-3">
+                                <div data-aos="flip-up" class="card d-block mx-auto" style="width: 20rem;">
+                                    <div class="card-body shadow ">
+                                        <h5 class="card-title">Gregoriana</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Italia</h6>
+                                        <p class="card-text">«La struttura è molto accogliente, si trova al centro del paese per cui facilmente raggiungibile con i mezzi pubblici. Con un’auto, si è ben collegati al comune confinante di Matera. </p>
+                                        <a class="" data-bs-toggle="modal" data-bs-target="#recensione1" href="">Leggi tutto</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 mb-3">
                                 <div data-aos="flip-up" class="card d-block mx-auto" style="width: 20rem;">
                                     <div class="card-body shadow ">
-                                        <h5 class="card-title">Recensione 3</h5>
-                                        <h6 class="card-subtitle mb-2 text-body-secondary">Persona</h6>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title">Liliana</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">Italia</h6>
+                                        <p class="card-text">L'elegante entrata ben ristrutturata,la cucina piccola ma non mancava nulla,la terrazza ,al sole per poter arieggiare gli abiti.le camere pulite,materassi comodi.Ottimo rapporto qualità prezzo.</p>
+                                        <a class="" data-bs-toggle="modal" data-bs-target="#recensione2" href="">Leggi tutto</a>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 mb-3">
+                            <div data-aos="flip-up" class="card d-block mx-auto" style="width: 20rem;">
+                                <div class="card-body shadow ">
+                                    <h5 class="card-title">Sergio</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Italia</h6>
+                                    <p class="card-text">«la sistemazione è stata molto comoda per noi (gruppo di tre coppie di amici) abbiamo condiviso la cucina e la zona giorno e praticamente tutta la casa che ha  3 camene
+                                    peccato che la stagione fredda  non ci ha fatto godere del terrazzino...»
+                                    </p>
+                                    <a class="" data-bs-toggle="modal" data-bs-target="#recensione3" href="">Leggi tutto</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
-        
-        <!-- informazioni -->
-        <div id="go" class="container my-5 py-5 ">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <h2 class="designe-underline2 mb-3">Il meglio della puglia</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio explicabo officia, soluta obcaecati ipsa earum iusto quidem minus? Molestiae quibusdam eius minima? Laboriosam soluta nobis sunt ut excepturi quaerat laudantium!
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 mb-5">
-                    <img data-aos="fade-left" class="img shadow" src="./media/detailPumo.jpg" alt="">
-                </div>
+        </div>
+    </div> 
+    
+    <!-- informazioni -->
+    <div id="go" class="container my-5 py-5 ">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="designe-underline mb-3">Il meglio della puglia</h2>
+                <p class="lead">
+                    Situata a 22 km dalla Cattedrale di Matera e dal Palombaro Lungo, la Pietraviva House offre alloggio a Santeramo in Colle. La struttura dispone di sistemazioni familiari e terrazza. Avrete a disposizione una reception operativa 24 ore su 24, una cucina in comune e un deposito bagagli.
+                </p>
             </div>
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 order-md-last">
-                    <h2 class="designe-underline mb-3">vieni a trovarci</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio explicabo officia, soluta obcaecati ipsa earum iusto quidem minus? Molestiae quibusdam eius minima? Laboriosam soluta nobis sunt ut excepturi quaerat laudantium!
-                    </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <img data-aos="fade-right" class="img shadow" src="./illustrazioni/Mappa.png" alt="">
-                </div>
+            <div class="col-12 col-md-6 mb-5">
+                <img data-aos="fade-left" class="img shadow" src="./media/travel.png" alt="">
             </div>
         </div>
+        <div class="row ">
+            <div class="col-12 col-md-6 order-md-last">
+                <h2 class="designe-underline mb-3">vieni a trovarci</h2>
+                <p class="lead">
+                    Le camere di questa pensione sono dotate di area salotto. Le camere sono dotate di aria condizionata, armadio, TV a schermo piatto e, in alcuni casi, balcone. Lenzuola e asciugamani sono inclusi.
+                    Come ospiti della Pietraviva House potrete gustare una colazione a buffet.
+                    La struttura dista 23 km dal Museo MUSMA e dal Castello Tramontano. L’Aeroporto di Bari-Karol Wojtyla è lo scalo più vicino, a 61 km dalla Pietraviva House.
+                    Le coppie apprezzano molto la posizione: l'hanno valutata 9,4 per un viaggio a due. 
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img data-aos="fade-right" class="img shadow" src="./illustrazioni/Mappa.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="designe-underline mb-3">Informazioni sull'host</h2>
+                <p class="lead">
+                    La pietra avvolgerà l’ospite, raccontando una storia centenaria. A Pietraviva House l’antico incontra il moderno, la storia si sposa con l’innovazione.
+                    A pochi km da Matera, punto strategico per raggiungere le bellezze pugliesi: Alberobello, le coste ioniche, il Salento, Castel del Monte. Santeramo inoltre è tappa del Cammino Materano
+                    Lingue parlate: Inglese,Italiano
+                </p>
+            </div>
+            <div class="col-12 col-md-6 mb-5">
+                <img data-aos="fade-left" class="img shadow" src="./media/contatto.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <!-- servizi struttura -->
+    <div class="container">
+        <div class="row">
 
-            <!-- Modulo di contatto -->
-    <div class="container-fluid text-center mt-4">
+            <!-- prima colonna -->
+            <div data-aos="fade-right" class="col-12 col-md-4">
+                <img src="./media/servizi/bathroom.png" alt="">
+                <h5>Bagno</h5>
+                <ul>
+                    <li>Carta Igienica</li>
+                    <li>Asciugamani</li>
+                    <li>Vasca o doccia</li>
+                    <li>WC</li>
+                    <li>Prodotti da bagno in omaggio</li>
+                    <li>Accappatoio</li>
+                    <li>Doccia</li>
+                </ul>
+                <img src="./media/servizi/bed.png" alt="">
+                <h5>Camera da letto</h5>
+                <ul>
+                    <li>Biancheria per la casa</li>
+                    <li>Armadio o guardaroba</li>
+                </ul>
+                <img src="./media/servizi/freesia.png" alt="">
+                <h5>Spazi all'aperto</h5>
+                <ul>
+                    <li>Arredamento da esterni</li>
+                    <li>Terrazza</li>
+                </ul>
+                <img src="./media/servizi/kitchen-set.png" alt="">
+                <h5>Cucina</h5>
+                <ul>
+                    <li>Cucina in comune</li>
+                    <li>Lavatrice</li>
+                </ul>
+                <img src="./media/servizi/bed.png" alt="">
+                <h5>Servizi in camera</h5>
+                <ul>
+                    <li>Presa elettrica vicino al letto</li>
+                    <li>Letto pieghevole</li>
+                    <li>Stand appendiabiti</li>
+                </ul>
+            </div>
+
+            <!-- seconda colonna -->
+            <div data-aos="fade-left" class="col-12 col-md-4">
+                <img src="./media/servizi/sofa.png" alt="">
+                <h5>Servizi in camera</h5>
+                <ul>
+                    <li>Zona soggiorno</li>
+                </ul>
+                <img src="./media/servizi/television.png" alt="">
+                <h5>Servizi in camera</h5>
+                <ul>
+                    <li>Tv a schermo piatto</li>
+                    <li>Canali italiani</li>
+                </ul>
+                <img src="./media/servizi/kitchen-set.png" alt="">
+                <h5>Servizi di ristorazione</h5>
+                <ul>
+                    <li>Caffetteria sul posto</li>
+                </ul>
+                <img src="./media/servizi/application.png" alt="">
+                <h5>Altri servizi</h5>
+                <ul>
+                    <li>Armadietti</li>
+                    <li>Check-in e check-out privati</li>
+                    <li>Ddeposito bagagli</li>
+                    <li>Check-in e check-out express</li>
+                    <li>Reception 24 ore su 24</li>
+                    <li>Internet WiFi disponibile gratuitamente nelle camere. </li>
+                </ul>
+            </div>
+
+            <!-- terza colonna -->
+            <div data-aos="fade-up" class="col-12 col-md-4">
+                <img src="./media/servizi/information-button.png" alt="">
+                <h5>Servizi generali</h5>
+                <ul>
+                    <li>Minimarket sul posto</li>
+                    <li>Area fumatori</li>
+                    <li>Aria condizionata</li>
+                    <li>Struttura interamente non fumatori</li>
+                    <li>Zanzariera</li>
+                    <li>Pavimento in marmo o in piastrelle</li>
+                    <li>Riscaldamento</li>
+                    <li>Dsponibilità di camere familiari</li>
+                    <li>Ferro e asse da stiro</li>
+                    <li>Camere non fumatori</li>
+                    <li>Ferro da stiro</li>
+                </ul>
+                <img src="./media/servizi/language.png" alt="">
+                <h5>Lingue parlate</h5>
+                <ul>
+                    <li>Italiano (madrelingua)</li>
+                    <li>Inglese</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modulo di contatto -->
+    <div id="call" class="container-fluid text-center mt-4">
         <div class="row align-items-center">
             <div class="col-12">
                 <h3 class=" mb-4">Compila il form per essere contattato</h3>
-                <div class="card d-block mx-auto shadow  " style="width: 18rem;">
-                    <div class="mt-3 mb-3 ms-3 me-3">
-                        <label for="exampleFormControlInput1" class="form-label">Indirizzo Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@esempio.com">
-                    </div>
-                    <div class="mb-3 ms-3 me-3">
-                        <label for="exampleFormControlInput1" class="form-label">Cellulare</label>
-                        <input type="" class="form-control" id="exampleFormControlInput1" placeholder="+39 0000000000">
-                    </div>
-                    <div class="mb-3 ms-3 me-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Scrivici</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Scrivici già cosa vorresti farci sapere"></textarea>
-                        <button type="button" class="btn mt-3">Invia</button>
-
-                    </div>
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="card d-block mx-auto shadow  " style="width: 18rem;">
+                <div class="mt-3 mb-3 ms-3 me-3">
+                    <label for="exampleFormControlInput1" class="form-label">Indirizzo Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@esempio.com">
+                </div>
+                <div class="mb-3 ms-3 me-3">
+                    <label for="exampleFormControlInput1" class="form-label">Cellulare</label>
+                    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="+39 0000000000">
+                </div>
+                <div class="mb-3 ms-3 me-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Scrivici</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Scrivici già cosa vorresti farci sapere"></textarea>
+                    <button type="button" class="btnn mt-3">Invia</button>
+                    
                 </div>
             </div>
         </div>
     </div>
-        
-        <!-- footer -->
-        <div class="container">
-            <footer class="py-3 my-4">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#up" class="nav-link px-2 text-body-secondary">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-                </ul>
-                <p class="text-center text-body-secondary">© 2024 Project, Michele Sette</p>
-            </footer>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#up" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#go" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024 Project, Michele Sette</p>
+            <ul class="nav justify-content-center pb-3 mb-3">
+                <li class="nav-item"><a href="https://www.instagram.com/michele.sette?igsh=eTk5bjk2cTh0dzk3&utm_source=qr" target="_blank" class="nav-link px-2"><img src="./media/instagram(2).png" alt=""></a></li>
+                <li class="nav-item"><a href="https://www.facebook.com/michele.sette.90/" class="nav-link px-2" target="_blank"><img src="./media/facebook(2).png" alt=""></a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="recensione1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Atmosfera famigliare e accogliente per un soggiorno molto gradevole</h1>
+            </div>
+            <div class="modal-body">
+                <p>
+                    La struttura è molto accogliente, si trova al centro del paese per cui facilmente raggiungibile con i mezzi pubblici. Con un’auto, si è ben collegati al comune confinante di Matera. Una buona sistemazione per il trekking sul cammino materano. La stanza e la cucina in comune sono pulitissime e ben attrezzate. Molto bella la pietra a vista tipica delle architetture pugliesi e i dettagli decorativi dell’ arredamento. La mia stanza aveva un terrazzino bellissimo affacciato sui tetti, mentre al piano cucina c’è una veranda all’aperto molto accogliente. Il gestore è stato extra attento alle mie necessità e mi ha segnalato in anticipo delle attività ricreative-sociali organizzate all’interno per evitare che mi recassero disturbo.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
-        
     </div>
 </div>
+<!-- fine modale 1 -->
+
+<!-- modale 2 -->
+<div class="modal fade" id="recensione2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Qui siamo stati da Dio !!!Pellegrini fortunati!!!</h1>
+            </div>
+            <div class="modal-body">
+                <p>
+                    L'elegante entrata ben ristrutturata,la cucina piccola ma non mancava nulla,la terrazza ,al sole per poter arieggiare gli abiti.le camere pulite,materassi comodi.Ottimo rapporto qualità prezzo.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fine modale 2 -->
+
+<!-- modale 3 -->
+<div class="modal fade" id="recensione3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">E' stato un soggiorno molto gradevole, lo consiglio sicuramente ad altri viaggiatori.</h1>
+            </div>
+            <div class="modal-body">
+                <p>
+                    la sistemazione è stata molto comoda per noi (gruppo di tre coppie di amici) abbiamo condiviso la cucina e la zona giorno e praticamente tutta la casa che ha  3 camene
+                    peccato che la stagione fredda  non ci ha fatto godere del terrazzino esterno.
+                    La posizione è comodissima sia per la spesa che per il parcheggio.
+                    Molto gradevole e accurato il restauro dell'edificio con zone in pietra a vista e l'arredo. molto curata la pulizia.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fine modale 3 -->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

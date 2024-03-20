@@ -1,5 +1,5 @@
 nav{
-    background-color: #6F1D1B;
+    background-color: #D5A98E;
     opacity: 95%;
 }
 
@@ -34,11 +34,14 @@ nav{
     height: 10%;
     background-color: #BB9457;
 }
-.btn {
+.btnn {
     background-color: #6F1D1B;
     color: white;
+    border-radius: 10px;
+    padding: 5px 18px;
+    border: none;
 }
 
 .img {
-    width: 100%;
+    width: 80%;
 }
